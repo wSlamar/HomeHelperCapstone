@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <h1 id = "title">
+        MY FIRST MAP
+    </h1>
+    <iframe
+    width="600"
+    height="450"
+    frameborder="0" style="border:0"
+    src="https://www.google.com/maps/embed/v1/search?key=AIzaSyD0Jhpoz8tC4fHqUxYGmf61Jxg84T62_2s&q=appliance+store+in+,Sandusky+OH" >
+    </iframe>
+    <div id = "search">
+      <body>
+        <script async src="https://cse.google.com/cse.js?cx=71de6aa13b43a36ca"></script>
+        <!-- <div class="gcse-searchresults-only" data-resultsUrl="http://127.0.0.1:5500/index.html?q=washing+machine"></div> -->
+        <div class="gcse-searchresults-only"></div>
+      </body>
+    </div>
+
+    <style type="text/css" >
+      iframe {
+          display: flex;
+          justify-content: left;
+          margin: auto;
+      }
+      body {
+        height: 100%;
+        background-color: skyblue;
+      }
+      #title {
+          color: blue;
+          text-align: center;
+          font-size: 50px;
+          font-family: 'Courier New', Courier, monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
+</html>
